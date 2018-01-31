@@ -1,2 +1,2 @@
-/usr/bin/ar.exe qc libwevents.a  CMakeFiles/wevents.dir/library.cpp.o
+/usr/bin/ar.exe qc libwevents.a  CMakeFiles/wevents.dir/examples.cpp.o
 /usr/bin/ranlib.exe libwevents.a

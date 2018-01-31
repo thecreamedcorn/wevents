@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/wevents.dir/library.cpp.o"
+  "CMakeFiles/wevents.dir/examples.cpp.o"
   "libwevents.pdb"
   "libwevents.a"
 )

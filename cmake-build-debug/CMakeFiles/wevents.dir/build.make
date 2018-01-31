@@ -57,38 +57,38 @@ include CMakeFiles/wevents.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wevents.dir/flags.make
 
-CMakeFiles/wevents.dir/library.cpp.o: CMakeFiles/wevents.dir/flags.make
-CMakeFiles/wevents.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wevents.dir/library.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wevents.dir/library.cpp.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/library.cpp
+CMakeFiles/wevents.dir/examples.cpp.o: CMakeFiles/wevents.dir/flags.make
+CMakeFiles/wevents.dir/examples.cpp.o: ../examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wevents.dir/examples.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wevents.dir/examples.cpp.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/examples.cpp
 
-CMakeFiles/wevents.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wevents.dir/library.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Administrator/CLionProjects/wevents/library.cpp > CMakeFiles/wevents.dir/library.cpp.i
+CMakeFiles/wevents.dir/examples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wevents.dir/examples.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Administrator/CLionProjects/wevents/examples.cpp > CMakeFiles/wevents.dir/examples.cpp.i
 
-CMakeFiles/wevents.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wevents.dir/library.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Administrator/CLionProjects/wevents/library.cpp -o CMakeFiles/wevents.dir/library.cpp.s
+CMakeFiles/wevents.dir/examples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wevents.dir/examples.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Administrator/CLionProjects/wevents/examples.cpp -o CMakeFiles/wevents.dir/examples.cpp.s
 
-CMakeFiles/wevents.dir/library.cpp.o.requires:
+CMakeFiles/wevents.dir/examples.cpp.o.requires:
 
-.PHONY : CMakeFiles/wevents.dir/library.cpp.o.requires
+.PHONY : CMakeFiles/wevents.dir/examples.cpp.o.requires
 
-CMakeFiles/wevents.dir/library.cpp.o.provides: CMakeFiles/wevents.dir/library.cpp.o.requires
-	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/library.cpp.o.provides.build
-.PHONY : CMakeFiles/wevents.dir/library.cpp.o.provides
+CMakeFiles/wevents.dir/examples.cpp.o.provides: CMakeFiles/wevents.dir/examples.cpp.o.requires
+	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/examples.cpp.o.provides.build
+.PHONY : CMakeFiles/wevents.dir/examples.cpp.o.provides
 
-CMakeFiles/wevents.dir/library.cpp.o.provides.build: CMakeFiles/wevents.dir/library.cpp.o
+CMakeFiles/wevents.dir/examples.cpp.o.provides.build: CMakeFiles/wevents.dir/examples.cpp.o
 
 
 # Object files for target wevents
 wevents_OBJECTS = \
-"CMakeFiles/wevents.dir/library.cpp.o"
+"CMakeFiles/wevents.dir/examples.cpp.o"
 
 # External object files for target wevents
 wevents_EXTERNAL_OBJECTS =
 
-libwevents.a: CMakeFiles/wevents.dir/library.cpp.o
+libwevents.a: CMakeFiles/wevents.dir/examples.cpp.o
 libwevents.a: CMakeFiles/wevents.dir/build.make
 libwevents.a: CMakeFiles/wevents.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libwevents.a"
@@ -100,7 +100,7 @@ CMakeFiles/wevents.dir/build: libwevents.a
 
 .PHONY : CMakeFiles/wevents.dir/build
 
-CMakeFiles/wevents.dir/requires: CMakeFiles/wevents.dir/library.cpp.o.requires
+CMakeFiles/wevents.dir/requires: CMakeFiles/wevents.dir/examples.cpp.o.requires
 
 .PHONY : CMakeFiles/wevents.dir/requires
 

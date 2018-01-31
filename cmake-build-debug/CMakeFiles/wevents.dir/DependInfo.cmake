@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Administrator/CLionProjects/wevents/library.cpp" "/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/wevents.dir/library.cpp.o"
+  "/cygdrive/c/Users/Administrator/CLionProjects/wevents/examples.cpp" "/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/wevents.dir/examples.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

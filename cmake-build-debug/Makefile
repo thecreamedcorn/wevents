@@ -123,32 +123,32 @@ wevents/fast:
 	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/build
 .PHONY : wevents/fast
 
-library.o: library.cpp.o
+examples.o: examples.cpp.o
 
-.PHONY : library.o
+.PHONY : examples.o
 
 # target to build an object file
-library.cpp.o:
-	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/library.cpp.o
-.PHONY : library.cpp.o
+examples.cpp.o:
+	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/examples.cpp.o
+.PHONY : examples.cpp.o
 
-library.i: library.cpp.i
+examples.i: examples.cpp.i
 
-.PHONY : library.i
+.PHONY : examples.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/library.cpp.i
-.PHONY : library.cpp.i
+examples.cpp.i:
+	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/examples.cpp.i
+.PHONY : examples.cpp.i
 
-library.s: library.cpp.s
+examples.s: examples.cpp.s
 
-.PHONY : library.s
+.PHONY : examples.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/library.cpp.s
-.PHONY : library.cpp.s
+examples.cpp.s:
+	$(MAKE) -f CMakeFiles/wevents.dir/build.make CMakeFiles/wevents.dir/examples.cpp.s
+.PHONY : examples.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... wevents"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... examples.o"
+	@echo "... examples.i"
+	@echo "... examples.s"
 .PHONY : help
 
 

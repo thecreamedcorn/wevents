@@ -80,10 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/library.cpp">
+		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/examples.cpp">
 			<Option target="wevents"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/library.h">
+		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/src/w_event.h">
+			<Option target="wevents"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/src/w_property.h">
 			<Option target="wevents"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/CMakeLists.txt">
