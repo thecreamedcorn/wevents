@@ -15,7 +15,6 @@
 
 namespace wevents
     {
-
     template<class... Args>
     class WSignal;
 

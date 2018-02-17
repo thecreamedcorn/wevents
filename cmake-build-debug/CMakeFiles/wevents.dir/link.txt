@@ -1,2 +1,1 @@
-/usr/bin/ar.exe qc libwevents.a  CMakeFiles/wevents.dir/examples.cpp.o
-/usr/bin/ranlib.exe libwevents.a
+/nix/var/nix/profiles/default/bin/g++  -pthread -g   CMakeFiles/wevents.dir/examples.cpp.o  -o wevents 

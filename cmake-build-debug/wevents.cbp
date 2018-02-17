@@ -8,88 +8,90 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug"/>
+				<Option working_dir="/home/wil/Code/CLionProjects/wevents/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug"/>
+				<Option working_dir="/home/wil/Code/CLionProjects/wevents/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug"/>
+				<Option working_dir="/home/wil/Code/CLionProjects/wevents/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wevents">
-				<Option output="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/libwevents.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug"/>
+				<Option output="/home/wil/Code/CLionProjects/wevents/cmake-build-debug/wevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wil/Code/CLionProjects/wevents/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../include/c++/6.4.0"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../include/c++/6.4.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../include/c++/6.4.0/backward"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/include"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed"/>
+					<Add directory="/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 wevents"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 wevents"/>
+					<CompileFile command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="wevents/fast">
-				<Option output="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/libwevents.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug"/>
+				<Option output="/home/wil/Code/CLionProjects/wevents/cmake-build-debug/wevents" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wil/Code/CLionProjects/wevents/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../include/c++/6.4.0"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../include/c++/6.4.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../include/c++/6.4.0/backward"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/include"/>
+					<Add directory="/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed"/>
+					<Add directory="/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 wevents/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 wevents/fast"/>
+					<CompileFile command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/var/nix/profiles/default/bin/make -j8 -f &quot;/home/wil/Code/CLionProjects/wevents/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/examples.cpp">
+		<Unit filename="/home/wil/Code/CLionProjects/wevents/examples.cpp">
 			<Option target="wevents"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/src/w_event.h">
+		<Unit filename="/home/wil/Code/CLionProjects/wevents/src/w_event.h">
 			<Option target="wevents"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/src/w_property.h">
+		<Unit filename="/home/wil/Code/CLionProjects/wevents/src/w_property.h">
 			<Option target="wevents"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Administrator/CLionProjects/wevents/CMakeLists.txt">
+		<Unit filename="/home/wil/Code/CLionProjects/wevents/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

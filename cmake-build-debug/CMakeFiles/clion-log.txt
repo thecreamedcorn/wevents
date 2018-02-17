@@ -1,4 +1,4 @@
-C:\Users\Administrator\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Administrator/CLionProjects/wevents
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/nix/var/nix/profiles/default/bin/make -DCMAKE_C_COMPILER=/nix/var/nix/profiles/default/bin/gcc -DCMAKE_CXX_COMPILER=/nix/var/nix/profiles/default/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/wil/Code/CLionProjects/wevents
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug
+-- Build files have been written to: /home/wil/Code/CLionProjects/wevents/cmake-build-debug

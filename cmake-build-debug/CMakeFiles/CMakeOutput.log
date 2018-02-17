@@ -1,6 +1,6 @@
-The system is: CYGWIN - 2.9.0(0.318/5/3) - x86_64
+The system is: Linux - 4.9.78 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /usr/bin/cc 
+Compiler: /nix/var/nix/profiles/default/bin/gcc 
 Build flags: 
 Id flags:  
 
@@ -8,12 +8,12 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/c++.exe 
+Compiler: /nix/var/nix/profiles/default/bin/g++ 
 Build flags: 
 Id flags:  
 
@@ -21,171 +21,142 @@ The output was:
 0
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_b8915/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b8915.dir/build.make CMakeFiles/cmTC_b8915.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8915.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_b8915.dir/testCCompiler.c.o   -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b8915.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b8915.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_b8915.dir/testCCompiler.c.o  -o cmTC_b8915.exe -Wl,--out-implib,libcmTC_b8915.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_75d8a/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_75d8a.dir/build.make CMakeFiles/cmTC_75d8a.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75d8a.dir/testCCompiler.c.o
+/nix/var/nix/profiles/default/bin/gcc    -o CMakeFiles/cmTC_75d8a.dir/testCCompiler.c.o   -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_75d8a
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d8a.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/gcc      CMakeFiles/cmTC_75d8a.dir/testCCompiler.c.o  -o cmTC_75d8a 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_51e1f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_51e1f.dir/build.make CMakeFiles/cmTC_51e1f.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/share/cmake-3.8.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_51e1f.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_51e1f.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o  -o cmTC_51e1f.exe -Wl,--out-implib,libcmTC_51e1f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_fde46/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_fde46.dir/build.make CMakeFiles/cmTC_fde46.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o
+/nix/var/nix/profiles/default/bin/gcc    -o CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o   -c /home/wil/Software/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fde46
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde46.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/gcc     -v CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o  -o cmTC_fde46 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe
-Target: x86_64-pc-cygwin
-Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+COLLECT_GCC=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/bin/gcc
+COLLECT_LTO_WRAPPER=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
 Thread model: posix
 gcc version 6.4.0 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51e1f.exe' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccX8vr2r.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_51e1f.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_51e1f.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51e1f.exe' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fde46' '-B' '/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-B' '/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/' '-idirafter' '/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include' '-idirafter' '/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed' '-B' '/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param' 'ssp-buffer-size=4' '-fPIC' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib' '-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-mtune=generic' '-march=x86-64'
+ /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/collect2 -plugin /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cco7WCsI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib64/ld-linux-x86-64.so.2 -o cmTC_fde46 /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crt1.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crti.o /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtbegin.o -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../.. -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtend.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fde46' '-B' '/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-B' '/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/' '-idirafter' '/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include' '-idirafter' '/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed' '-B' '/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param' 'ssp-buffer-size=4' '-fPIC' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib' '-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_51e1f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_51e1f.dir/build.make CMakeFiles/cmTC_51e1f.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o   -c /cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/share/cmake-3.8.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_51e1f.exe]
-  ignore line: [/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_51e1f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc    -Wl,--enable-auto-import -v CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o  -o cmTC_51e1f.exe -Wl,--out-implib,libcmTC_51e1f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_fde46/fast"]
+  ignore line: [/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_fde46.dir/build.make CMakeFiles/cmTC_fde46.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/nix/var/nix/profiles/default/bin/gcc    -o CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o   -c /home/wil/Software/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fde46]
+  ignore line: [/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fde46.dir/link.txt --verbose=1]
+  ignore line: [/nix/var/nix/profiles/default/bin/gcc     -v CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o  -o cmTC_fde46 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe]
-  ignore line: [Target: x86_64-pc-cygwin]
-  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [COLLECT_GCC=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 6.4.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_51e1f.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccX8vr2r.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_51e1f.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_51e1f.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o]
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe] ==> ignore
+  ignore line: [COMPILER_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fde46' '-B' '/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-B' '/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/' '-idirafter' '/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include' '-idirafter' '/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed' '-B' '/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param' 'ssp-buffer-size=4' '-fPIC' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib' '-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-mtune=generic' '-march=x86-64']
+  link line: [ /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/collect2 -plugin /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cco7WCsI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib64/ld-linux-x86-64.so.2 -o cmTC_fde46 /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crt1.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crti.o /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtbegin.o -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../.. -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtend.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crtn.o]
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccX8vr2r.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cco7WCsI.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
-    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [i386pep] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_Znwm] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_Znam] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdlPv] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdaPv] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZnwmRKSt9nothrow_t] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZnamRKSt9nothrow_t] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
-    arg [-Bdynamic] ==> ignore
-    arg [--dll-search-prefix=cyg] ==> ignore
-    arg [--tsaware] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_51e1f.exe] ==> ignore
-    arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..]
-    arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_51e1f.dir/CMakeCCompilerABI.c.o] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_51e1f.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [cmTC_fde46] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crt1.o] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crti.o] ==> ignore
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+    arg [-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+    arg [-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+    arg [-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+    arg [-L/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin] ==> dir [/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin]
+    arg [-L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0] ==> dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0]
+    arg [-L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64] ==> dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64]
+    arg [-L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../..] ==> dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../..]
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_fde46.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
-    arg [-lcygwin] ==> lib [cygwin]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
+    arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> [/usr/x86_64-pc-cygwin/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> [/usr/lib]
-  implicit libs: [cygwin;advapi32;shell32;user32;kernel32]
-  implicit dirs: [/usr/lib/w32api;/usr/lib/gcc/x86_64-pc-cygwin/6.4.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtend.o] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crtn.o] ==> ignore
+  collapse library dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+  collapse library dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+  collapse library dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+  collapse library dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+  collapse library dir [/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin] ==> [/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin]
+  collapse library dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0] ==> [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0]
+  collapse library dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64] ==> [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib64]
+  collapse library dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../..] ==> [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib;/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib;/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin;/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0;/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib64;/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_e4c8f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4c8f.dir/build.make CMakeFiles/cmTC_e4c8f.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4c8f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e4c8f.dir/feature_tests.c.o   -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e4c8f.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e4c8f.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_e4c8f.dir/feature_tests.c.o  -o cmTC_e4c8f.exe -Wl,--out-implib,libcmTC_e4c8f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_1d6d1/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_1d6d1.dir/build.make CMakeFiles/cmTC_1d6d1.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d6d1.dir/feature_tests.c.o
+/nix/var/nix/profiles/default/bin/gcc   -std=c11 -o CMakeFiles/cmTC_1d6d1.dir/feature_tests.c.o   -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1d6d1
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d6d1.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/gcc      CMakeFiles/cmTC_1d6d1.dir/feature_tests.c.o  -o cmTC_1d6d1 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -195,17 +166,17 @@ make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevent
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_788d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_788d5.dir/build.make CMakeFiles/cmTC_788d5.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_788d5.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_788d5.dir/feature_tests.c.o   -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_788d5.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_788d5.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_788d5.dir/feature_tests.c.o  -o cmTC_788d5.exe -Wl,--out-implib,libcmTC_788d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_2168d/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_2168d.dir/build.make CMakeFiles/cmTC_2168d.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2168d.dir/feature_tests.c.o
+/nix/var/nix/profiles/default/bin/gcc   -std=c99 -o CMakeFiles/cmTC_2168d.dir/feature_tests.c.o   -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2168d
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2168d.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/gcc      CMakeFiles/cmTC_2168d.dir/feature_tests.c.o  -o cmTC_2168d 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,17 +186,17 @@ make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevent
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_2f48f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2f48f.dir/build.make CMakeFiles/cmTC_2f48f.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2f48f.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_2f48f.dir/feature_tests.c.o   -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2f48f.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_2f48f.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,--enable-auto-import  CMakeFiles/cmTC_2f48f.dir/feature_tests.c.o  -o cmTC_2f48f.exe -Wl,--out-implib,libcmTC_2f48f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_4810c/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_4810c.dir/build.make CMakeFiles/cmTC_4810c.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4810c.dir/feature_tests.c.o
+/nix/var/nix/profiles/default/bin/gcc   -std=c90 -o CMakeFiles/cmTC_4810c.dir/feature_tests.c.o   -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4810c
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4810c.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/gcc      CMakeFiles/cmTC_4810c.dir/feature_tests.c.o  -o cmTC_4810c 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -233,167 +204,135 @@ make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevent
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_9bc82/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9bc82.dir/build.make CMakeFiles/cmTC_9bc82.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9bc82.dir/testCXXCompiler.cxx.o
-/usr/bin/c++.exe     -o CMakeFiles/cmTC_9bc82.dir/testCXXCompiler.cxx.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9bc82.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_9bc82.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_9bc82.dir/testCXXCompiler.cxx.o  -o cmTC_9bc82.exe -Wl,--out-implib,libcmTC_9bc82.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_1ee76/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_1ee76.dir/build.make CMakeFiles/cmTC_1ee76.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ee76.dir/testCXXCompiler.cxx.o
+/nix/var/nix/profiles/default/bin/g++     -o CMakeFiles/cmTC_1ee76.dir/testCXXCompiler.cxx.o -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1ee76
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee76.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/g++       CMakeFiles/cmTC_1ee76.dir/testCXXCompiler.cxx.o  -o cmTC_1ee76 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_8d5b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d5b8.dir/build.make CMakeFiles/cmTC_8d5b8.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++.exe     -o CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/share/cmake-3.8.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_8d5b8.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8d5b8.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8d5b8.exe -Wl,--out-implib,libcmTC_8d5b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_e0e96/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_e0e96.dir/build.make CMakeFiles/cmTC_e0e96.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o
+/nix/var/nix/profiles/default/bin/g++     -o CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o -c /home/wil/Software/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e0e96
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e96.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/g++      -v CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0e96 
 Using built-in specs.
-COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe
-Target: x86_64-pc-cygwin
-Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible
+COLLECT_GCC=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/bin/g++
+COLLECT_LTO_WRAPPER=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: 
 Thread model: posix
 gcc version 6.4.0 (GCC) 
-COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/
-LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d5b8.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccoh9gol.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_8d5b8.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8d5b8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d5b8.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/
+LIBRARY_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0e96' '-B' '/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-B' '/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/' '-idirafter' '/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include' '-idirafter' '/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed' '-B' '/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param' 'ssp-buffer-size=4' '-fPIC' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib' '-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/collect2 -plugin /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccg3nJnl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib64/ld-linux-x86-64.so.2 -o cmTC_e0e96 /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crt1.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crti.o /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtbegin.o -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../.. -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtend.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0e96' '-B' '/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-B' '/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/' '-idirafter' '/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include' '-idirafter' '/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed' '-B' '/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param' 'ssp-buffer-size=4' '-fPIC' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib' '-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_8d5b8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8d5b8.dir/build.make CMakeFiles/cmTC_8d5b8.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++.exe     -o CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o -c /cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/share/cmake-3.8.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_8d5b8.exe]
-  ignore line: [/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8d5b8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++.exe    -Wl,--enable-auto-import -v CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_8d5b8.exe -Wl,--out-implib,libcmTC_8d5b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_e0e96/fast"]
+  ignore line: [/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_e0e96.dir/build.make CMakeFiles/cmTC_e0e96.dir/build]
+  ignore line: [make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/nix/var/nix/profiles/default/bin/g++     -o CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o -c /home/wil/Software/clion-2017.3.3/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e0e96]
+  ignore line: [/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e96.dir/link.txt --verbose=1]
+  ignore line: [/nix/var/nix/profiles/default/bin/g++      -v CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e0e96 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe]
-  ignore line: [Target: x86_64-pc-cygwin]
-  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-6.4.0-1.x86_64/src/gcc-6.4.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libcilkrts --enable-libgomp --enable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible]
+  ignore line: [COLLECT_GCC=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Configured with: ]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 6.4.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/bin/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8d5b8.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccoh9gol.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_8d5b8.exe -L/usr/lib/w32api /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0 -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../.. --enable-auto-import CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8d5b8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o]
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/collect2.exe] ==> ignore
+  ignore line: [COMPILER_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib/:/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/:/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64/:/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e0e96' '-B' '/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-B' '/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/' '-idirafter' '/nix/store/j4q18y05wpnjin423wf69nfb7r7q0ml9-glibc-2.25-123-dev/include' '-idirafter' '/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/include-fixed' '-B' '/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin/' '-O2' '-D' '_FORTIFY_SOURCE=2' '-fstack-protector-strong' '--param' 'ssp-buffer-size=4' '-fPIC' '-fno-strict-overflow' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib' '-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/collect2 -plugin /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccg3nJnl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib64/ld-linux-x86-64.so.2 -o cmTC_e0e96 /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crt1.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crti.o /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtbegin.o -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib -L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib -L/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64 -L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../.. -dynamic-linker /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtend.o /nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crtn.o]
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/cyglto_plugin.dll] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccoh9gol.res] ==> ignore
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/libexec/gcc/x86_64-unknown-linux-gnu/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccg3nJnl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
-    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
-    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
-    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [i386pep] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_Znwm] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_Znam] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdlPv] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdaPv] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZnwmRKSt9nothrow_t] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZnamRKSt9nothrow_t] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
-    arg [--wrap] ==> ignore
-    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
-    arg [-Bdynamic] ==> ignore
-    arg [--dll-search-prefix=cyg] ==> ignore
-    arg [--tsaware] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8d5b8.exe] ==> ignore
-    arg [-L/usr/lib/w32api] ==> dir [/usr/lib/w32api]
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/crt0.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib]
-    arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib]
-    arg [-L/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..]
-    arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_8d5b8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-    arg [--out-implib] ==> ignore
-    arg [libcmTC_8d5b8.dll.a] ==> ignore
-    arg [--major-image-version] ==> ignore
-    arg [0] ==> ignore
-    arg [--minor-image-version] ==> ignore
-    arg [0] ==> ignore
+    arg [cmTC_e0e96] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crt1.o] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crti.o] ==> ignore
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+    arg [-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+    arg [-L/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+    arg [-L/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+    arg [-L/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin] ==> dir [/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin]
+    arg [-L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0] ==> dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0]
+    arg [-L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64] ==> dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64]
+    arg [-L/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../..] ==> dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../..]
+    arg [-dynamic-linker] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_e0e96.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [-lcygwin] ==> lib [cygwin]
-    arg [-ladvapi32] ==> lib [advapi32]
-    arg [-lshell32] ==> lib [shell32]
-    arg [-luser32] ==> lib [user32]
-    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/default-manifest.o] ==> ignore
-    arg [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/crtend.o] ==> ignore
-  remove lib [gcc_s]
-  remove lib [gcc]
-  remove lib [gcc_s]
-  remove lib [gcc]
-  collapse library dir [/usr/lib/w32api] ==> [/usr/lib/w32api]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0] ==> [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib/../lib] ==> [/usr/x86_64-pc-cygwin/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../x86_64-pc-cygwin/lib] ==> [/usr/x86_64-pc-cygwin/lib]
-  collapse library dir [/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../..] ==> [/usr/lib]
-  implicit libs: [stdc++;cygwin;advapi32;shell32;user32;kernel32]
-  implicit dirs: [/usr/lib/w32api;/usr/lib/gcc/x86_64-pc-cygwin/6.4.0;/usr/x86_64-pc-cygwin/lib;/usr/lib;/lib]
+    arg [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/crtend.o] ==> ignore
+    arg [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib/crtn.o] ==> ignore
+  collapse library dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+  collapse library dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+  collapse library dir [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib] ==> [/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib]
+  collapse library dir [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib] ==> [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib]
+  collapse library dir [/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin] ==> [/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin]
+  collapse library dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0] ==> [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0]
+  collapse library dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../../../lib64] ==> [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib64]
+  collapse library dir [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0/../../..] ==> [/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/nix/store/d54amiggq6bw23jw6mdsgamvs6v1g3bh-glibc-2.25-123/lib;/nix/store/dk0n769l985raba2nrya2q7ivspafj6f-gcc-6.4.0-lib/lib;/nix/store/5l6b97jscljkvsq9y9amg71v5jfzddm4-gcc-wrapper-6.4.0/bin;/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib/gcc/x86_64-unknown-linux-gnu/6.4.0;/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib64;/nix/store/3p1b66av1sflap15jr4b8z6hw28fmjam-gcc-6.4.0/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_be154/fast"
-/usr/bin/make -f CMakeFiles/cmTC_be154.dir/build.make CMakeFiles/cmTC_be154.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_be154.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++1z -o CMakeFiles/cmTC_be154.dir/feature_tests.cxx.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_be154.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_be154.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_be154.dir/feature_tests.cxx.o  -o cmTC_be154.exe -Wl,--out-implib,libcmTC_be154.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_2b2a2/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_2b2a2.dir/build.make CMakeFiles/cmTC_2b2a2.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b2a2.dir/feature_tests.cxx.o
+/nix/var/nix/profiles/default/bin/g++    -std=c++1z -o CMakeFiles/cmTC_2b2a2.dir/feature_tests.cxx.o -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2b2a2
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b2a2.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/g++       CMakeFiles/cmTC_2b2a2.dir/feature_tests.cxx.o  -o cmTC_2b2a2 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -456,17 +395,17 @@ make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevent
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_cc394/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cc394.dir/build.make CMakeFiles/cmTC_cc394.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cc394.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++14 -o CMakeFiles/cmTC_cc394.dir/feature_tests.cxx.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cc394.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_cc394.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_cc394.dir/feature_tests.cxx.o  -o cmTC_cc394.exe -Wl,--out-implib,libcmTC_cc394.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_5f1f5/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_5f1f5.dir/build.make CMakeFiles/cmTC_5f1f5.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f1f5.dir/feature_tests.cxx.o
+/nix/var/nix/profiles/default/bin/g++    -std=c++14 -o CMakeFiles/cmTC_5f1f5.dir/feature_tests.cxx.o -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5f1f5
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1f5.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/g++       CMakeFiles/cmTC_5f1f5.dir/feature_tests.cxx.o  -o cmTC_5f1f5 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -529,17 +468,17 @@ make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevent
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_630b5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_630b5.dir/build.make CMakeFiles/cmTC_630b5.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_630b5.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTC_630b5.dir/feature_tests.cxx.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_630b5.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_630b5.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_630b5.dir/feature_tests.cxx.o  -o cmTC_630b5.exe -Wl,--out-implib,libcmTC_630b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_5467e/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_5467e.dir/build.make CMakeFiles/cmTC_5467e.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5467e.dir/feature_tests.cxx.o
+/nix/var/nix/profiles/default/bin/g++    -std=c++11 -o CMakeFiles/cmTC_5467e.dir/feature_tests.cxx.o -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5467e
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5467e.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/g++       CMakeFiles/cmTC_5467e.dir/feature_tests.cxx.o  -o cmTC_5467e 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -602,17 +541,17 @@ make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevent
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_ef196/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef196.dir/build.make CMakeFiles/cmTC_ef196.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ef196.dir/feature_tests.cxx.o
-/usr/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTC_ef196.dir/feature_tests.cxx.o -c /cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_ef196.exe
-/cygdrive/c/Users/Administrator/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ef196.dir/link.txt --verbose=1
-/usr/bin/c++.exe    -Wl,--enable-auto-import  CMakeFiles/cmTC_ef196.dir/feature_tests.cxx.o  -o cmTC_ef196.exe -Wl,--out-implib,libcmTC_ef196.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
-make[1]: Leaving directory '/cygdrive/c/Users/Administrator/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/nix/var/nix/profiles/default/bin/make" "cmTC_06eb3/fast"
+/nix/var/nix/profiles/default/bin/make -f CMakeFiles/cmTC_06eb3.dir/build.make CMakeFiles/cmTC_06eb3.dir/build
+make[1]: Entering directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06eb3.dir/feature_tests.cxx.o
+/nix/var/nix/profiles/default/bin/g++    -std=c++98 -o CMakeFiles/cmTC_06eb3.dir/feature_tests.cxx.o -c /home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_06eb3
+/home/wil/Software/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06eb3.dir/link.txt --verbose=1
+/nix/var/nix/profiles/default/bin/g++       CMakeFiles/cmTC_06eb3.dir/feature_tests.cxx.o  -o cmTC_06eb3 
+make[1]: Leaving directory '/home/wil/Code/CLionProjects/wevents/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

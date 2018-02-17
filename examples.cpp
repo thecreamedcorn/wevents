@@ -4,7 +4,6 @@
 
 #include <iostream>
 #include <mutex>
-#include <windows.h>
 #include <chrono>
 #include <string>
 #include <thread>
@@ -107,16 +106,16 @@ void nonblocking_mutex_signal_thread(std::string thread_name, int num)
     sig.emit(thread_name, num);
 
     cout_mutex.lock();
-    //std::cout << "executed imediatly after signal emit" << std::endl;
+    std::cout << "executed imediatly after signal emit" << std::endl;
     cout_mutex.unlock();
     }
 
 void test_mutex_event_handling()
     {
-    std::thread th2(nonblocking_mutex_signal_thread, "thread 2", 10);
-    //std::this_thread::sleep_for(1000ms);
-    //std::thread th1(blocking_mutex_signal_thread, "thread 1", 5);
-    //th1.join();
+    std::thread th1(nonblocking_mutex_signal_thread, "thread 1", 10);
+    std::this_thread::sleep_for(1000ms);
+    std::thread th2(blocking_mutex_signal_thread, "thread 2", 5);
+    th1.join();
     th2.join();
     }
 
