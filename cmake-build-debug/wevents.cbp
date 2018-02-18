@@ -85,6 +85,9 @@
 		<Unit filename="/home/wil/Code/CLionProjects/wevents/examples.cpp">
 			<Option target="wevents"/>
 		</Unit>
+		<Unit filename="/home/wil/Code/CLionProjects/wevents/src/w_event(old).h">
+			<Option target="wevents"/>
+		</Unit>
 		<Unit filename="/home/wil/Code/CLionProjects/wevents/src/w_event.h">
 			<Option target="wevents"/>
 		</Unit>

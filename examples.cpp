@@ -8,7 +8,7 @@
 #include <string>
 #include <thread>
 
-#include "src/w_event.h"
+#include "src/w_event(old).h"
 #include "src/w_property.h"
 
 using namespace wevents;
@@ -72,7 +72,6 @@ public:
 
     void inc(const std::string& thread_name, int add)
         {
-        //std::this_thread::sleep_for(1000ms);
         for (int num = 0; num < add; num++)
             {
             i++;
@@ -113,7 +112,6 @@ void nonblocking_mutex_signal_thread(std::string thread_name, int num)
 void test_mutex_event_handling()
     {
     std::thread th1(nonblocking_mutex_signal_thread, "thread 1", 10);
-    std::this_thread::sleep_for(1000ms);
     std::thread th2(blocking_mutex_signal_thread, "thread 2", 5);
     th1.join();
     th2.join();

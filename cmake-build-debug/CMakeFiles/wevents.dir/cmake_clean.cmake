@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/wevents.dir/examples.cpp.o"
-  "libwevents.pdb"
-  "libwevents.a"
+  "wevents.pdb"
+  "wevents"
 )
 
 # Per-language clean rules from dependency scanning.

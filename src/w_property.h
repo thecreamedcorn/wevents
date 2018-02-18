@@ -11,7 +11,7 @@
 #include <functional>
 #include <tuple>
 
-#include "w_event.h"
+#include "w_event(old).h"
 
 namespace wevents
     {

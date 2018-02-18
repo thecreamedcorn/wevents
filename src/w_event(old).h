@@ -1,10 +1,3 @@
-//
-// Created by wil on 2/18/18.
-//
-
-#ifndef WEVENTS_W_EVENT_H
-#define WEVENTS_W_EVENT_H
-
 #ifndef WGUI_W_EVENT_H
 #define WGUI_W_EVENT_H
 
@@ -233,13 +226,39 @@ namespace wevents
         friend inline void internal::events::register_connection(WSlotObject *, ConnectionBase *);
         friend inline void internal::events::unregister_connection(WSlotObject *, ConnectionBase *);
 
-        std::unordered_set<std::shared_ptr<internal::events::ConnectionBase> > connections;
+        std::unordered_set<internal::events::ConnectionBase *> connections;
 
     protected:
         WSlotObject()
             {}
 
     public:
+        virtual ~WSlotObject()
+            {
+            const size_t ARRAY_SIZE = connections.size();
+            internal::events::ConnectionBase **conn_copy = new internal::events::ConnectionBase *[ARRAY_SIZE];
+
+            {
+                size_t i = 0;
+                for (internal::events::ConnectionBase *connection : connections)
+                    {
+                    conn_copy[i] = connection;
+                    i++;
+                    }
+            }
+
+            for (size_t i = 0; i < ARRAY_SIZE; i++)
+                {
+                if (conn_copy[i]->get_options().is_blocking()
+                    && (conn_copy[i]->get_state() == internal::events::ConnectionBase::RUNNING))
+                    { conn_copy[i]->set_state(internal::events::ConnectionBase::DELETE_SELF); }
+                else
+                    { delete conn_copy[i]; }
+                }
+
+            delete[] conn_copy;
+            }
+        };
 
     ConOps::ConOps(const ConOps &copy)
             : mutexActions(copy.mutexActions->clone()),
@@ -304,7 +323,6 @@ namespace wevents
                         : ConnectionBase(std::move(options)),
                           signal(signal)
                     { signal->register_connection((Connection<Args...> *) this); }
-
             public:
 
                 virtual void call_impl(std::tuple<Args...> &args) = 0;
@@ -312,18 +330,17 @@ namespace wevents
                 virtual ~Connection()
                     { signal->unregister_connection((Connection<Args...> *) this); }
 
-                void call(std::tuple<Args...>* args)
+                void call(std::tuple<Args...> *args)
                     {
                     //auto my_invokable = std::bind(call_impl, this, args);
                     //my_invokable.operator()();
                     get_options().get_thread_actions().execute(
-                            [this, =]()
+                            [this, args]()
                                 {
                                 get_options().get_mutex().execute(
-                                        [this]()
+                                        [this, args]()
                                             {
                                             this->call_impl(*args); // <<<<<<< THIS LINE SEGFAULTS ON RARE OCCASIONS <<<<<<
-                                            delete args;
                                             }
                                 );
                                 }, this
@@ -625,9 +642,9 @@ namespace wevents
             for (internal::events::Connection<Args...> *connection : connections)
                 { conn_copy.push_back(connection); }
 
-            //std::shared_ptr<std::tuple<Args...> > tup = std::make_shared<std::tuple<Args...> >(args...);
+            std::tuple<Args...> tup(args...);
             for (internal::events::Connection<Args...> *connection : conn_copy)
-                { connection->call(new std::tuple<Args...> >(args...)); }
+                { connection->call(&tup); }
             }
         };
 
@@ -643,5 +660,3 @@ namespace wevents
 
 #endif //WGUI_W_EVENT_H
 
-
-#endif //WEVENTS_W_EVENT_H
