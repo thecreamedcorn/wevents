@@ -120,7 +120,7 @@ void test_mutex_event_handling()
 
 int main()
     {
-    test_mutex_event_handling();
+    test_mutex_event_handling(); //this test segfaults a lot
 
     return 0;
     }
