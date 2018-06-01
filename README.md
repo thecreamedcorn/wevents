@@ -1,7 +1,7 @@
 # wevents
 This is a simple header only library for c++ event handling. It is modled slightly after the signal slots mechanism of qt but with more feature rich and dynamic. The basis is that one can create signals that can be subscribed to and handled by diffrent invokable objects. Just a note, for some reason this library has a lot of issues on windows because they have a strange implementation of both std::function and also standard multi-threading stuff but the library works perfectly fine on linux. I have not tested it on OSX but I assume it would also work well on that.
 
-just a note there is a segfault that happens when two threads emit signals that use the same mutex at the same time. idk why this happens and I've even isolated the line of code that it happens on and I cannot seem to figure out the issue. I'll probably end up rewriting this library so that it uses more standard c++ conventions but I wanted this one to be very small and very fast. Either that or I'll port it to rust once rust gets variadic templates but that seems like a far ways off at this point.
+just a note. This library is not yet safe when used in a multithreaded environment. There is a segfault that happens when two threads emit signals that use the same mutex at the same time. I will probably rewrite this library once I have a better understanding of how to create safe multithreaded code.
 
 ## Overview of Code
 ### WSignal
